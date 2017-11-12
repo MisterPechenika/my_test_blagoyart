@@ -1,0 +1,404 @@
+body
+	font-family: 'ptsans', sans-serif
+
+.header
+	max-width: 1244px
+	margin: 0 auto
+	margin-top: 35px
+	+r(321)
+		margin-top: 0px
+	&__menu320
+		width: 320px
+		height: 40px
+		background: #f0f1f6
+		display: none
+		margin-bottom: 13px
+		+r(321)
+			display: block
+	&__list
+		float: left
+		padding-top: 12px
+	&__link
+		color: #dbdbdc
+		padding-left: 19px
+		padding-top: 12px
+		padding-right: 15.2px
+		padding-bottom: 6px
+		&:hover
+			background: #3eade2
+			color: #f0f1f6
+	i
+		font-size: 20px
+
+	
+.top-block
+	max-width: 1244px
+	height: 66px
+	margin: 0 auto
+	border-bottom: 1px solid #dddfdf
+	margin-bottom: 16px
+	padding-left: 16px
+	padding-right: 12px
+	+r(321)
+			border-bottom: 0px 
+			margin-bottom: 0px
+
+	&__logo
+		width: 100%
+		+r(769)
+			width: 180px
+		+r(321)
+			width: 196px
+	&__logo-container
+		float: left
+	&__blagoyart
+		color: #747688
+		font-size: 14px
+		+r(769)
+			font-size: 12px
+
+	&__search
+		border: 1px solid #b9b8bd
+		border-radius: 5px
+		width: 496px
+		height: 40px
+		font-size: 14px
+		float: left
+		color: #b9b8bd
+		padding-left: 10px
+		padding-right: 10px
+		margin-left: 44px
+		margin-top: -5px
+		letter-spacing: -0.5px
+		+r(1160)
+			width: 44%
+		+r(769)
+			height: 31px
+			width: 222px
+			margin-top: 1px
+			margin-left: 40px
+		+r(321)
+			display: none
+
+	&__icon
+		color: #d6ab72
+		position: absolute
+		background: #fff
+		font-size: 20px
+		margin-left: -27px
+		margin-top: 2px
+		+r(769)
+			margin-left: -20px
+		img
+			+r(769)
+				width: 11px
+		+r(321)
+			display: none
+
+
+	&__phone
+		font-size: 23px
+		display: inline
+		margin-left: 90px
+		letter-spacing: 0px
+		+r(1250)
+			margin-left: 0px
+			width: 100%
+		+r(769)
+			font-size: 15px
+			margin-left: 28px
+			margin-top: 0px
+		+r(321)
+			display: none
+	&__contact-container
+		float: right
+		margin-top: -2px
+		+r(769)
+			margin-right: 31px
+			margin-top: -3px
+		+r(321)
+			display: none	
+	&__timetable
+		font-size: 14px
+		color: #cb944c
+		+r(769)
+			font-size: 10px
+	&__delivery
+		font-size: 14px
+		color: #2b3056
+		+r(769)
+			font-size: 10px
+
+
+.bottom-block
+	max-width: 1244px
+	height: 38px
+	margin: 0 auto
+	border-bottom: 1px solid #dddfdf
+	font-family: 'ptsansbold', sans-serif
+	letter-spacing: 0px
+	padding-left: 15px
+	padding-right: 13px
+	+r(321)
+		display: none
+	&__menu
+		font-size: 16px
+		+r(769)
+			letter-spacing: -0.3px
+			font-size: 13px
+			margin-top: 20px
+	&__list
+		float: left
+		margin-right: 24px
+		+r(769)
+			margin-right: 29px
+			margin-top: 0px
+			i
+				font-size: 15px
+	&__list2
+		float: left
+		margin-left: 16px
+		margin-right: 7px
+		+r(769)
+			margin-right: 15px
+
+		
+	&__chevron-down
+		margin-left: 8px
+		margin-top: 7px
+		position: absolute
+		
+	&__link
+		text-decoration: none
+		color: #000
+	&__login-container
+		float: right
+		margin-top: -1px
+		+r(769)
+			position: absolute
+			right: 0px
+			margin-top: -47px
+			margin-right: 43px
+	
+		
+	&__number
+		display: inline-block
+		background: #cb944c
+		border-radius: 100%
+		width: 23px
+		height: 21px
+		margin-left: 7px
+		margin-right: 3px
+		margin-top: 0px
+		text-align: center
+		a
+			color: #fff
+			font-size: 14px
+		+r(769)
+			width: 22px
+			height: 20px
+			a
+				font-size: 12px
+
+	i
+		color: #cb944c
+	a
+		text-decoration: none
+
+	
+	&__login
+		color: #252a54
+		font-size: 16px
+		letter-spacing: 0.4px
+		+r(769)
+			font-size: 13px
+	&__product
+		color: #252a54
+		letter-spacing: 0px
+		letter-spacing: 0px
+		font-size: 14px
+		letter-spacing: 0.4px
+		+r(769)
+			font-size: 10px
+	&__total
+		font-size: 16px
+		+r(769)
+			font-size: 13px
+	&__user
+		margin-right: 5px
+		margin-left: 15px
+		+r(769)
+			margin-right: 0px
+			margin-left: 10px
+			margin-top: 2px
+			width: 18px
+	&__shopping-cart
+		position: absolute
+		margin-left: -30px
+		+r(769)
+			width: 16px
+			margin-left: -12px
+			margin-top: 5px
+	
+		
+
+.fa-list-ul
+	margin-right: 12px
+.fa-circle-o
+	font-size: 2px
+
+.submenu
+	width: 244px
+	height: 266px
+	background: #fff
+	display: none
+	position: absolute
+	margin-top: 47px
+	margin-left: -13px
+	box-shadow: 1px 2px 1px rgba(0,0,0,0.3)
+	border-radius: 4px
+	border: 1px solid #dddfdf
+	z-index: 999
+
+	&__marker
+		position: absolute
+		display: inline
+		left: 0
+		margin-left: 15px
+		margin-top: -4px
+		i
+			font-size: 7px
+	&__chevron-right
+		position: absolute
+		display: inline
+		right: 0
+		margin-right: 16px
+		margin-top: -1px
+		i
+			font-size: 12px
+	a
+		color: #666666
+	&__menu
+		margin-top: 14px
+		margin-left: 0px
+	&__list
+		padding-top: 6px
+		padding-bottom: 5px
+		padding-left: 30px
+		font-size: 15px
+		font-family: 'ptsans', sans-serif
+		
+		&:hover
+			background: #e9e9ea
+	
+
+
+.expand
+	display: block
+
+.right-submenu
+	width: 244px
+	height: 156px
+	background: #fff
+	display: none
+	position: absolute
+	margin-top: 140px
+	margin-left: 233px
+	box-shadow: 3px 3px 1px rgba(0,0,0,0.3)
+	border-radius: 4px
+	border: 1px solid #dddfdf
+	z-index: 999
+	&__title
+		font-size: 16px
+		color: #cb944c
+		margin-left: 16px
+		margin-top: 18px
+	&__menu
+		margin-top: 7px
+	&__list
+		font-family: 'ptsans', sans-serif
+		padding-top: 6px
+		padding-bottom: 5px
+		font-size: 15px
+		padding-left: 32px
+		&:hover
+			background: #e9e9ea
+		a
+			color: #666666
+.expand
+	display: block
+.slick
+	display: block
+	max-width: 1354px
+	margin: 0 auto
+	margin-top: 32px
+	&__single-item
+		width: 100%
+	+r(321)
+		margin-top: 0px
+.slick-prev,.slick-next
+	z-index: 1;
+	position: absolute
+	left: 0px 
+	top: 50% 
+	width: 37px 
+	background: #d2a66b
+	height: 128px 
+	transform: translate(0,-50%)
+	opacity: 0.88
+	margin-top: -3px
+	&:hover
+		background: #fff
+		opacity: 0.88
+	&:hover i
+		color: #d2a66b
+	i
+		font-size: 20px
+		color: #fff
+		margin-left: -7px
+		+r(321)
+			font-size: 14px
+	+r(769)
+		height: 67px 
+		width: 21px 
+	+r(321)
+		height: 37px 
+		width: 15px 
+		
+
+	
+.slick-next
+	left: auto
+	right: 0px 
+	i
+		margin-left: 6px
+
+.slick-dots 
+	position: absolute
+	left: 50%
+	transform: translate(-50%, 0)
+	margin-top: 35px
+	margin-left: 11px
+	+r(769)
+		margin-top: 10px
+	li
+		float: left
+		margin-right: 22px
+	button
+		width: 18px
+		height: 18px
+		padding: 0px
+		background: #cb944c
+		border-radius: 50%
+		font-size: 0px
+		opacity: 0.33
+		+r(769)
+			width: 12px
+			height: 12px
+
+
+.slick-active
+	button
+		opacity: 1
+
+
